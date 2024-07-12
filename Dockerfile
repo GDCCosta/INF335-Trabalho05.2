@@ -1,11 +1,8 @@
 # Use a imagem base do OpenJDK 11
 FROM openjdk:11
 
-# Diretório de trabalho dentro do contêiner
-WORKDIR /app
-
 # Copia o arquivo Java para o contêiner
-COPY OlaUnicamp.java /app
+COPY OlaUnicamp.java /
 
 # Compila o arquivo Java
 RUN javac OlaUnicamp.java
