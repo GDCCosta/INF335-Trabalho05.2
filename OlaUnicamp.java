@@ -1,7 +1,5 @@
 public class OlaUnicamp {
-	
-	private static void main(String[] args) {
-			System.out.println("Olá Unicamp");
-
-	}
+    public static void main(String[] args) {
+        System.out.println("Olá Unicamp");
+    }
 }
