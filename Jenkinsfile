@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Checkout do código fonte do repositório
-                git 'https://github.com/seu-usuario/java-hello-world.git'
+                git 'https://github.com/GDCCosta/INF335-Trabalho05.2.git'
                 // Compilação do código Java
                 sh 'javac OlaUnicamp.java'
             }
