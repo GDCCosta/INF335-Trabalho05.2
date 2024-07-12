@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // Execução do programa Java
                 sh  """
-                    docker run -rm olaunicamp
+                    docker run --rm olaunicamp
                 """
             }
         }
